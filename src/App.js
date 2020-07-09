@@ -13,6 +13,7 @@ import UserNavbar from './Components/UserNavbar';
 import Footer from './Components/FooterPage';
 import Home from './Components/Home';
 import Car from './Components/Car';
+import Course from './Components/Course';
 
 import Courseone from './Components/Courseone';
 import UserHome from './Components/UserHome';
@@ -30,7 +31,8 @@ return (
           <Route exact path='/login' component={Login} />
           <Route path='/register' component={Register} />
           <Route path='/slide' component={Slide} /> 
-          <Route path='/viewcard' component={Car} />    
+          <Route path='/viewcard' component={Car} />  
+          <Route path='/viewcourse' component={Course} />    
           <Route path='/courseone' component={Courseone} />
           <Route path='/booked/:id' component={Booked} />
           <Route path='/singlebook' component={SingleBooklist} />

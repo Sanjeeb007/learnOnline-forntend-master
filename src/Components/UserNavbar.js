@@ -26,7 +26,7 @@ class Header extends Component {
           <img src="/images/short.png" alt="logo" width="130dp" height="100dp" />
 
           <span >Online Learning Nepal</span>
-          <span className="float-right">  <img src="/images/lll.png" alt="logo" width="130dp" height="100dp" /></span>
+          <span className="float-right">  <img src="/images/short.png" alt="logo" width="130dp" height="100dp" /></span>
         </MDBNavbar>
         <MDBNavbar color="text-white bg-danger" dark expand="md">
 
@@ -38,13 +38,13 @@ class Header extends Component {
                 <NavLink href="/userhome">HomePage</NavLink>
               </MDBNavItem>
               <MDBNavItem active>
-                <NavLink href="/viewcard" className="ml-3" onClick={this.notify1}>Cources</NavLink>
+                <NavLink href="/viewcourse" className="ml-3" onClick={this.notify1}>Cources</NavLink>
               </MDBNavItem>
               <MDBNavItem active>
                 <NavLink href="/userprofile" className="ml-3">Profile</NavLink>
               </MDBNavItem>
               <MDBNavItem active>
-                <NavLink href="/viewbook" className="ml-3">Lecturers</NavLink>
+                <NavLink href="/viewbook" className="ml-3">Booklist</NavLink>
               </MDBNavItem>
 
               <MDBNavItem active>
