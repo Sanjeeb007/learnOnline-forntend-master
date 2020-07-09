@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import {Container} from 'reactstrap';
 import Login from './Components/Login';
 import Booked from './Components/Booked';
+import Showbooklist from './Components/Showbooklist';
+import SingleBooklist from './Components/SingleBooklist';
 import Header from './Components/Header';
 import Register from './Components/Register';
 import Slide from './Components/Slide';
@@ -11,6 +13,7 @@ import UserNavbar from './Components/UserNavbar';
 import Footer from './Components/FooterPage';
 import Home from './Components/Home';
 import Car from './Components/Car';
+
 import Courseone from './Components/Courseone';
 import UserHome from './Components/UserHome';
 import User from './Components/User';
@@ -30,6 +33,8 @@ return (
           <Route path='/viewcard' component={Car} />    
           <Route path='/courseone' component={Courseone} />
           <Route path='/booked/:id' component={Booked} />
+          <Route path='/singlebook' component={SingleBooklist} />
+          <Route path='/viewbook' component={Showbooklist} />
           <Route path='/' component={Home} />
           <Route path='/usernavbar' component={UserNavbar} />
               
