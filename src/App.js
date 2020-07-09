@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import {Container} from 'reactstrap';
 import Login from './Components/Login';
+import Booked from './Components/Booked';
 import Header from './Components/Header';
 import Register from './Components/Register';
 import Slide from './Components/Slide';
@@ -28,6 +29,7 @@ return (
           <Route path='/slide' component={Slide} /> 
           <Route path='/viewcard' component={Car} />    
           <Route path='/courseone' component={Courseone} />
+          <Route path='/booked/:id' component={Booked} />
           <Route path='/' component={Home} />
           <Route path='/usernavbar' component={UserNavbar} />
               
