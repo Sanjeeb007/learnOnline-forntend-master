@@ -23,12 +23,9 @@ class BookingView extends Component {
                     <div className="card text-center mb-2">
                         <Alert color="info">
 
-                         <h6>Username :</h6>   <h6 style={{ fontSize: '22px' }}>{allcars.username}</h6><br />
-                         <h6>carRegistrationNo :</h6>   <h6>{allcars.carRegistrationNo}</h6><br />
-                         <h6>pickUpLocation :</h6>   <p>{allcars.pickUpLocation}</p><br />
-                         <h6>pickUpData :</h6>   <p>{allcars.pickUpDate}</p><br />
-                         <h6>dropOffLocation :</h6>   <p>{allcars.dropOffLocation}</p><br />
-                         <h6>dropOffData :</h6>   <p>{allcars.dropOffDate}</p><br />
+                         <h6 color="danger">Email: </h6><h5>{allcars.email}</h5><br />
+                    <h6>courseCode: </h6><h6>{allcars.courseCode}</h6><br />
+                    <h6>coursePrice: </h6><h6>{allcars.coursePrice}</h6><br />
                          <span><MDBBtn gradient="aqua" onClick={() => deleteBook(allcars._id)} href="booklist"><h6>Delete</h6></MDBBtn></span>
                         </Alert>
                     </div>

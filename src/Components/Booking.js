@@ -19,7 +19,7 @@ class Booking extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3000/a/allbooklist')
+        axios.get('http://localhost:3006/admin/allbooklist')
             .then((response) => {
                 this.setState({
                     car: response.data
@@ -30,7 +30,7 @@ class Booking extends Component {
     deleteBook = _id => {
         console.log("clicked");
         axios
-            .delete("http://localhost:3000/users/deletebook/" + _id, this.state.config)
+            .delete("http://localhost:3006/student/deletebook/" + _id, this.state.config)
             .then(result => {
                 console.log(result);
                 toast.error("Booked data is deleted")
