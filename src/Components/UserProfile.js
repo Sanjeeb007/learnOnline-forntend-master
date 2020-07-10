@@ -16,7 +16,7 @@ class UserProfile extends Component {
     }
 
     componentDidMount() {
-        Axios.get("http://localhost:3000/users/me", this.state.config).then(
+        Axios.get("http://localhost:3006/student/me", this.state.config).then(
             response => {
                 this.setState({
                     user: response.data
@@ -38,35 +38,15 @@ class UserProfile extends Component {
 
                     <table className="table col-md-6 mx-auto">
                         <tbody>
-                            <div className="ml-3">
-
-                                <img src={"http://localhost:3000/uploads/users/" + this.state.user.image} alt={this.state.user.image} width="100%" height="200px" />
-                            </div>
+                           
                             <tr>
                                 <td>
-                                    <h6 className="text-light">First Name</h6>
+                                    <h6 className="text-light">Full Name</h6>
                                 </td>
-                                <td className="text-light">{this.state.user.first_name}</td>
+                                <td className="text-light">{this.state.user.name}</td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <h6 className="text-light">Last Name</h6>
-                                </td>
-                                <td className="text-light">
-                                    {this.state.user.last_name}
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h6 className="text-light">Username</h6>
-                                </td>
-                                <td className="text-light">
-                                    {this.state.user.username}
-                                  
-                                </td>
-                            </tr>
-
+                           
+                           
                             <tr>
                                 <td>
                                     <h6 className="text-light">Email</h6>
@@ -86,6 +66,7 @@ class UserProfile extends Component {
                                    
                                 </td>
                             </tr>
+
                         </tbody>
                     </table>
                 </div>

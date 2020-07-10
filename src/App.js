@@ -21,6 +21,7 @@ import Booking from './Components/Booking';
 import Courseone from './Components/Courseone';
 import UserHome from './Components/UserHome';
 import User from './Components/User';
+import UserProfile from './Components/UserProfile';
 
 const App = () => {
 return (
@@ -31,6 +32,7 @@ return (
           <Route path='/header' component={Header} />
           <Route path='/viewuser' component={User} />
           <Route path='/userhome' component={UserHome} />
+          <Route path='/userprofile' component={UserProfile} />
           <Route exact path='/login' component={Login} />
           <Route path='/register' component={Register} />
           <Route path='/slide' component={Slide} /> 
