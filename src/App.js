@@ -15,6 +15,7 @@ import Home from './Components/Home';
 import Car from './Components/Car';
 import Course from './Components/Course';
 import AdminNavbar from './Components/AdminNavbar';
+import AdminHome from './Components/AdminHome';
 import Courseone from './Components/Courseone';
 import UserHome from './Components/UserHome';
 import User from './Components/User';
@@ -38,6 +39,7 @@ return (
           <Route path='/singlebook' component={SingleBooklist} />
           <Route path='/viewbook' component={Showbooklist} />
           <Route path='/adminnavbar' component={AdminNavbar} />
+          <Route path='/adminhome' component={AdminHome} />
           <Route path='/' component={Home} />
           <Route path='/usernavbar' component={UserNavbar} />
               
