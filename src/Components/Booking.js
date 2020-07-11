@@ -19,7 +19,7 @@ class Booking extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3006/admin/allbooklist')
+        axios.get('http://localhost:3006/student/allbooklist')
             .then((response) => {
                 this.setState({
                     car: response.data
