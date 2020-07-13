@@ -13,6 +13,7 @@ import UserNavbar from './Components/UserNavbar';
 import Footer from './Components/FooterPage';
 import Home from './Components/Home';
 import AddComment from './Components/AddComment';
+import Comment from './Components/Comment';
 import Car from './Components/Car';
 import Course from './Components/Course';
 import AdminNavbar from './Components/AdminNavbar';
@@ -43,6 +44,7 @@ return (
           <Route path='/booked/:id' component={Booked} />
           <Route path='/booklist' component={Booking} />
           <Route path='/addcomment' component={AddComment} />
+          <Route path='/viewcomment' component={Comment} />  
           <Route path='/singlebook' component={SingleBooklist} />
           <Route path='/viewbook' component={Showbooklist} />
           <Route path='/adminnavbar' component={AdminNavbar} />
