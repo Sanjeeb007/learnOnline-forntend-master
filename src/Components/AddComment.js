@@ -37,10 +37,10 @@ export default class Addcomment extends Component {
   addcar = (e) => {
     e.preventDefault();
 
-    axios.post('http://localhost:3000/users/comment', this.state, this.state.config)
+    axios.post('http://localhost:3006/student/comment', this.state, this.state.config)
       .then((response) => {
         console.log(response);
-        toast.success("Comment Added")
+        toast.success("Feedback Added successfully")
         // setTimeout(window.location.href = "/components/addcomment", 1000);
       }).catch((err) => console.log(err))
   }
@@ -59,7 +59,7 @@ export default class Addcomment extends Component {
           <MDBCol md="8" xl="12" className="mt-4">
             <MDBAnimation type="fadeInRight" delay=".3s">
               <img
-                src="/images/cars.png"
+                src="/images/abc.png"
                 alt=""
                 className="img-fluid"
               />
@@ -71,30 +71,24 @@ export default class Addcomment extends Component {
 
               <MDBCardBody className="black-text">
                 <h3 className="text-center">
-                  <MDBIcon icon="user" /> Add Comment:
+                  <MDBIcon icon="user" /> Add Feedback:
                         </h3>
                 <hr className="hr-black" />
 
-              <MDBInput
+             
+                <MDBInput
                   className="black-text"
                   iconClass="black-text"
-                  label="phone_number"
-                  type='text' name='phone_number' id='phone_number'
-                  value={this.state.phone_number} onChange={this.handleChange}
+                  label="courseName"
+                  type='text' name='courseName' id='courseName'
+                  value={this.state.courseName} onChange={this.handleChange}
                 />
                 <MDBInput
                   className="black-text"
                   iconClass="black-text"
-                  label="carName"
-                  type='text' name='carName' id='carName'
-                  value={this.state.carName} onChange={this.handleChange}
-                />
-                <MDBInput
-                  className="black-text"
-                  iconClass="black-text"
-                  label="comment"
-                  type='text' name='comment' id='comment'
-                  value={this.state.comment} onChange={this.handleChange}
+                  label="feedback"
+                  type='text' name='feedback' id='feedback'
+                  value={this.state.feedback} onChange={this.handleChange}
                 />
 
 
