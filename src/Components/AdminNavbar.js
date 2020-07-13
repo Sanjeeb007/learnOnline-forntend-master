@@ -34,10 +34,10 @@ render() {
               <NavLink href="/adminhome">Home</NavLink>
             </MDBNavItem>
             <MDBNavItem active className="ml-3">
-              <NavLink href="/addcar">AddCar</NavLink>
+              <NavLink href="/addcar">AddCourses</NavLink>
             </MDBNavItem>
             <MDBNavItem active className="ml-3">
-              <NavLink href="/managecar">Manage Car</NavLink>
+              <NavLink href="/managecar">Manage Courses</NavLink>
             </MDBNavItem>
             <MDBNavItem active className="ml-3">
               <NavLink href="/booklist">BookingLists</NavLink>

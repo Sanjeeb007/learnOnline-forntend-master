@@ -60,7 +60,7 @@ class ProductDetail extends Component {
         )
             .then(response => {
                 console.log(response.data);
-                toast.error("Booked Car Sucessfully")
+                toast.error("Booked Courses Sucessfully")
                 // localStorage.setItem("token", response.data.token);
                 this.setState({
                 
