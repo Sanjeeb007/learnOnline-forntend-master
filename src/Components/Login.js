@@ -15,7 +15,8 @@ class Login extends Component {
         this.state = {
             email: '',
             password: '',
-            isLoggedIn: false
+            isLoggedIn: false,
+            usertype: ''
         }
     }
     handleChange = (e) => {
@@ -29,7 +30,7 @@ class Login extends Component {
             .then((response) => {
                 console.log(response.data)
                 localStorage.setItem('token', response.data.token)
-                this.setState({ isLoggedIn: true })
+                this.setState({ isLoggedIn: true , usertype: response.data.usertype})
             }).catch((err) => console.log(err.response))
         this.setState({ email: '', password: '' })
     }
@@ -37,7 +38,11 @@ class Login extends Component {
 
         
         if (this.state.isLoggedIn === true) {
+          if(this.state.usertype === 'admin') {
+           return <Redirect to='/adminhome' />
+          } else {
             return <Redirect to='/userhome' />
+          }
         }
         return (
 

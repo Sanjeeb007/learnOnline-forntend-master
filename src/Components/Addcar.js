@@ -84,7 +84,7 @@ export default class Addcar extends Component {
 
               <MDBCardBody className="black-text">
                 <h3 className="text-center">
-                  <MDBIcon icon="user" /> Add car:
+                  <MDBIcon icon="user" /> Add course:
                         </h3>
                 <hr className="hr-black" />
 
