@@ -30,7 +30,7 @@ class CommentAdmin extends Component {
     deleteComment = _id => {
         console.log("clicked");
         axios
-            .delete("http://localhost:3000/student/commentdata/" + _id, this.state.config)
+            .delete("http://localhost:3006/student/commentdata/" + _id, this.state.config)
             .then(result => {
                 console.log(result);
                 toast.error("Comment is deleted")

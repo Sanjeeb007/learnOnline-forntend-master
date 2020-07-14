@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Alert } from 'reactstrap';
+import { Alert, Button } from 'reactstrap';
 import { Link } from "react-router-dom";
-import { MDBBtn } from "mdbreact";
+//import { MDBBtn } from "mdbreact";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 class CardView extends Component {
@@ -32,16 +32,16 @@ class CardView extends Component {
                             <h6>coursePrice :  {allcars.coursePrice}</h6><br />
                             <h6>courseCreator : {allcars.courseCreator}</h6><br />
                             <h6>courseDescription :  {allcars.courseDescription}</h6>
-                            <MDBBtn gradient="peach">
+                           
 
 <Link
-    to={"/booked/" + allcars._id}
-
-    style={{ textDecoration: "none" }}>
+    to={"/booked/" + allcars._id}>
+        <Button>
     Add Book
+    </Button>
 </Link>
 
-</MDBBtn>
+
                             <ToastContainer />
                         </Alert>
                     </div>
