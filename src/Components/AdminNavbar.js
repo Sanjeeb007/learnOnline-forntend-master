@@ -21,7 +21,7 @@ render() {
       <MDBNavbar color="text-white bg-info">
       <img src="/images/short.png" alt="logo" width="130dp" height="100dp"/>
 
-      <span >Online Learning Nepal</span>
+      <span >Admin HomePage</span>
         <span className="float-right">  <img src="/images/short.png" alt="logo" width="130dp" height="100dp"/></span>
       </MDBNavbar>
       <MDBNavbar color="text-white bg-danger" dark expand="md">

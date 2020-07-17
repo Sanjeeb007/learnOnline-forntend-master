@@ -59,7 +59,7 @@ export default class Addcomment extends Component {
           <MDBCol md="8" xl="12" className="mt-4">
             <MDBAnimation type="fadeInRight" delay=".3s">
               <img
-                src="/images/abc.png"
+                src="/images/feed.png"
                 alt=""
                 className="img-fluid"
               />
