@@ -12,6 +12,7 @@ import Slide from './Components/Slide';
 import UserNavbar from './Components/UserNavbar';
 import Footer from './Components/FooterPage';
 import Home from './Components/Home';
+import Editcar from './Components/Editcar';
 import AddComment from './Components/AddComment';
 import Comment from './Components/Comment';
 import Car from './Components/Car';
@@ -42,6 +43,7 @@ return (
           <Route path='/register' component={Register} />
           <Route path='/slide' component={Slide} /> 
           <Route path='/viewcard' component={Car} />  
+          <Route path='/editcar/:id' component={Editcar} />
           <Route path='/viewcourse' component={Course} />    
           <Route path='/courseone' component={Courseone} />
           <Route path='/booked/:id' component={Booked} />
