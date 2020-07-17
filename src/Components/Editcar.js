@@ -29,7 +29,7 @@ class Editcar extends Component {
     Axios.get(
       "http://localhost:3006/student/car/" + this.props.match.params.id //,this.state.config
     ).then(response => {
-      console.log(response.data.carRegistrationNo);
+      console.log(response.data.courseCode);
       this.setState({
         courseCode: response.data.courseCode,
         courseName: response.data.courseName,
@@ -176,7 +176,7 @@ class Editcar extends Component {
               Product Image
             </Label>
           </b>{" "}
-          <img
+          {/* <img
             src={"http://localhost:3006/uploads/cars/" + this.state.image}
             className="card-img-top img-fluid"
             style={{
@@ -185,7 +185,7 @@ class Editcar extends Component {
               width: "auto"
             }}
             alt="alt text"
-          />
+          /> */}
         </FormGroup>
         <Button color="warning" align="center">
           <ToastContainer />
