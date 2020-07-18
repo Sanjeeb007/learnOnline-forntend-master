@@ -20,22 +20,23 @@ class AboutUS extends Component {
       <div class="row">
                 <div class="col-md-6">
                     <h1 class="display-4">Company Overview</h1>
-                    <span class="text-link lead">Pharping Rental is one of the leading vehicle rental companies in
+                    <span class="text-link lead">LearnOnline Nepal is one of the best e-Learning website in
                         Nepal.</span>
-                    <p class="lead">Rent a vehicle in Nepal and benefit from low prices, professional service and a
-                        great range of comfortable new vehicles. And with our vehicle rental stations in Nepal located
-                        exactly where you need them most – in city centers, airports– you'll be hitting the road in no
-                        time, whether travelling for business or pleasure. Rent a vehicle in Nepal with Truevalue Rental
-                        today and find the perfect rental car or bus for your needs, while enjoying the added peace of
-                        mind that comes with a name you can trust. Rent a vehicle with us .It's easy to book your
-                        vehicle rental in Nepal with Truevalue Rental. Just use our simple three-step booking process to
-                        find your ideal rental in no time.
+                    <p class="lead">Online Education Nepal is a web-based e-learning platform that aims to provide
+                     easily accessible digital technological 
+                    education at the click of your fingertips to a larger public 
+                    with the content in native language Online Distance Learning is much more than 
+                    just taking classes over the Internet.  It's really about bringing "anytime, anywhere"
+                     learning directly to YOU regardless of your age, academic or social background.
                     </p>
-                    <p class="lead">We aim to keep things quick and easy for our customers while offering great
-                        every-day low prices car rental. So whether you're looking for a family rental, an eco-friendly
-                        vehicle or a bus hire, pay us a visit at rental station and enjoy fast and friendly service. The
-                        Green Program Here at Truevalue Renal, we believe what’s good for the Earth is good for our
-                        drivers. That's why we work hard to understand the environmental impact of what we do.
+                    <p class="lead">Learning is not limited to schools and universities anymore as you 
+                    have access to all types of learning resources online. Most of the online learning 
+                    resources are completely free to use and some even provide verified certificates for 
+                    a tiny fee. You can choose to either learn some general lessons or check out actual 
+                    university courses. However, it can be a bit tedious to search for high-quality learning 
+                    resources when there are so many websites. To solve this problem, we have created this list 
+                    of top learning websites. It contains the most popular and reliable learning resources. So, if you are 
+                    interested in improving your skills, here are the 35 best websites to learn something new.
                     </p>
                     <ul class="list_marker lead">
                         <li>Best price guarantee.</li>
@@ -45,9 +46,9 @@ class AboutUS extends Component {
                 </div>
                
                <div class="col-md-6">
-                    <img src="images/aboutus.jpg" class="img-fluid" alt="sideimage"></img>
-                    <img src="images/ab2.jpg" class="img-fluid" alt="sideimage"></img>
-                    <img src="images/test.jpg" class="img-fluid" alt="sideimage"></img>
+                    <img src="images/learn.jpg" class="img-fluid" alt="sideimage"></img>
+                    <img src="images/learnn.jpg" class="img-fluid" alt="sideimage"></img>
+                    <img src="images/learnnn.jpg" class="img-fluid" alt="sideimage"></img>
                 </div>
              </div>
 </div>
@@ -57,19 +58,19 @@ class AboutUS extends Component {
                 <div class="row">
                     <div class="col-sm-12">
                         <h1 class="display-4 text-center">Why Choose Us</h1>
-                        <p class="dislay-5 text-center text-primary">Committed to give customer a delightful renting
+                        <p class="dislay-5 text-center text-primary">Committed to give student a delightful renting
                             experience</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-6">
                         <div class="block-icon">
-                            <p class="lead"><i class="fas fa-check-double"></i> Express pick-up service available</p>
+                            <p class="lead"><i class="fas fa-check-double"></i> Lower fee</p>
                             <p class="display-5">Visit your selected locations with ease and at your pace with a cheap
-                                rental vehicle in Nepal. </p>
+                                learning site in Nepal. </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-6">
                         <div class="block-icon">
-                            <p class="lead"><i class="fas fa-check-double"></i> Short and long term car rental</p>
+                            <p class="lead"><i class="fas fa-check-double"></i> Study anywhere, any time</p>
                             <p class="display-5">Whether you're looking for a short-term rental to tour Nepal or a
                                 month-long rent-a-vehicle solution. </p>
                         </div>
@@ -96,9 +97,9 @@ class AboutUS extends Component {
             <div class="row info-box">
                 <div class="col-sm-12">
                     <article>
-                        <h1 class="display-4 text-center">Start your travel planning here</h1>
-                        <p class="display-5 text-center text-primary">Drive away with more money in your pockets and
-                            more time on your itinerary.</p>
+                        <h1 class="display-4 text-center">Start your learning planning here</h1>
+                        <p class="display-5 text-center text-primary">Most FutureLearn courses run multiple times. Every run of a course 
+                        has a set start date but you can join it and work through it after it starts.</p>
                         <p class="text-center">
                             <button type="button" class="btn-success ml-3">
                                 <a href="mailto:truevaluerentals977@gmail.com" class="btn text-dark">EMAIL US</a>

@@ -11,6 +11,7 @@ import Register from './Components/Register';
 import Slide from './Components/Slide';
 import UserNavbar from './Components/UserNavbar';
 import Footer from './Components/FooterPage';
+import AboutUS from './Components/AboutUS';
 import Home from './Components/Home';
 import Editcar from './Components/Editcar';
 import AddComment from './Components/AddComment';
@@ -48,6 +49,7 @@ return (
           <Route path='/courseone' component={Courseone} />
           <Route path='/booked/:id' component={Booked} />
           <Route path='/booklist' component={Booking} />
+          <Route path='/aboutus' component={AboutUS} />
           <Route path='/addcomment' component={AddComment} />
           <Route path='/commentview' component={CommentAdmin} /> 
           <Route path='/viewcomment' component={Comment} />  
