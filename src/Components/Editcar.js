@@ -170,12 +170,12 @@ class Editcar extends Component {
           />
         </FormGroup>
 
-        <FormGroup>
-          <b>
+        {/* <FormGroup> */}
+          {/* <b>
             <Label for="image" className="text-dark">
               Product Image
             </Label>
-          </b>{" "}
+          </b>{" "} */}
           {/* <img
             src={"http://localhost:3006/uploads/cars/" + this.state.image}
             className="card-img-top img-fluid"
@@ -186,7 +186,7 @@ class Editcar extends Component {
             }}
             alt="alt text"
           /> */}
-        </FormGroup>
+        {/* </FormGroup> */}
         <Button color="warning" align="center">
           <ToastContainer />
           Update Product

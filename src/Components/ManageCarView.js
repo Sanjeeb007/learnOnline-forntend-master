@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Alert } from 'reactstrap';
+import { Alert,Button } from 'reactstrap';
 import { MDBBtn } from "mdbreact";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
@@ -33,13 +33,15 @@ class ManageCarView extends Component {
                             <h6>coursePrice :  {allcars.coursePrice}</h6><br />
                             <h6>courseCreator : {allcars.courseCreator}</h6><br />
                             <h6>courseDescription :  {allcars.courseDescription}</h6>
-                            <MDBBtn gradient="peach" >
+                           
                                 <Link
                                     to={"/editcar/" + allcars._id}
                                     style={{ textDecoration: "none" }}>
+                                         <Button gradient="peach" >
                                     Edit
+                                    </Button>
                     </Link>
-                            </MDBBtn>
+                            
                             <MDBBtn gradient="aqua" onClick={() => deleteCar(allcars._id)} >Delete</MDBBtn>
                             <ToastContainer />
                         </Alert>
