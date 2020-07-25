@@ -42,7 +42,7 @@ class ManageCarView extends Component {
                                     </Button>
                     </Link>
                             
-                            <MDBBtn gradient="aqua" onClick={() => deleteCar(allcars._id)} >Delete</MDBBtn>
+                            <MDBBtn gradient="aqua" onClick={() => deleteCar(allcars._id)} href="/managecar">Delete</MDBBtn>
                             <ToastContainer />
                         </Alert>
                     </div>

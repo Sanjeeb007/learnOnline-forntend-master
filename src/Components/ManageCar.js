@@ -32,7 +32,7 @@ class ManageCar extends Component {
     deleteCar = _id => {
         console.log("clicked");
         axios
-            .delete("http://localhost:3000/admin/deleteUser/" + _id, this.state.config)
+            .delete("http://localhost:3006/admin/deleteUser/" + _id, this.state.config)
             .then(result => {
                 console.log(result);
                 toast.error("Booked data is deleted")
